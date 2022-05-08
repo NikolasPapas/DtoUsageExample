@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.Core", "TestDTOsApplication.Core\TestDTOsApplication.Core.csproj", "{C6EFB0CD-C7B6-4A76-B4E4-395C44B2AA0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{EC196887-19DD-48CB-95EA-9D7FE9C70BF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{65E51C95-6B6B-4E23-A50C-B4E7DB0A9803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalService", "ExternalService", "{764D5BE2-91A3-44BE-90AF-68F4F395DA1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{38D8408C-ABF0-40BA-AA24-96998502AC38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{82B1471D-5144-4EDF-971D-616F8614DE8D}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Postman\TestDTOsApplication.Core.postman_environment.json = SolutionItems\Postman\TestDTOsApplication.Core.postman_environment.json
+		SolutionItems\Postman\TestDTOsApplication.postman_collection.json = SolutionItems\Postman\TestDTOsApplication.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.Common.Controllers", "Implementation\Common\TestDTOsApplication.Common.Controllers\TestDTOsApplication.Common.Controllers.csproj", "{82858568-C51C-4406-941D-1695EFD34B24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.Common.Interfaces", "Implementation\Common\TestDTOsApplication.Common.Interfaces\TestDTOsApplication.Common.Interfaces.csproj", "{318378FF-D505-472A-8F21-8E76A46DB439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.Common.Servises", "Implementation\Common\TestDTOsApplication.Common.Servises\TestDTOsApplication.Common.Servises.csproj", "{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.Common.Types", "Implementation\Common\TestDTOsApplication.Common.Types\TestDTOsApplication.Common.Types.csproj", "{983E6010-C5A1-4811-A531-7B4C70466046}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.ExternalServices.DataServices", "Implementation\ExternalService\TestDTOsApplication.ExternalServices.DataServices\TestDTOsApplication.ExternalServices.DataServices.csproj", "{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.ExternalServices.DataInterfaces", "Implementation\ExternalService\TestDTOsApplication.ExternalServices.DataServices.interfaces\TestDTOsApplication.ExternalServices.DataInterfaces.csproj", "{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDTOsApplication.ExternalServices.DataTypes", "Implementation\ExternalService\TestDTOsApplication.ExternalServices.DataTypes\TestDTOsApplication.ExternalServices.DataTypes.csproj", "{21677D15-4265-47B7-B5FE-051B02CAC660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6EFB0CD-C7B6-4A76-B4E4-395C44B2AA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EFB0CD-C7B6-4A76-B4E4-395C44B2AA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EFB0CD-C7B6-4A76-B4E4-395C44B2AA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EFB0CD-C7B6-4A76-B4E4-395C44B2AA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82858568-C51C-4406-941D-1695EFD34B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82858568-C51C-4406-941D-1695EFD34B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82858568-C51C-4406-941D-1695EFD34B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82858568-C51C-4406-941D-1695EFD34B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318378FF-D505-472A-8F21-8E76A46DB439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318378FF-D505-472A-8F21-8E76A46DB439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318378FF-D505-472A-8F21-8E76A46DB439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318378FF-D505-472A-8F21-8E76A46DB439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983E6010-C5A1-4811-A531-7B4C70466046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983E6010-C5A1-4811-A531-7B4C70466046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983E6010-C5A1-4811-A531-7B4C70466046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983E6010-C5A1-4811-A531-7B4C70466046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21677D15-4265-47B7-B5FE-051B02CAC660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21677D15-4265-47B7-B5FE-051B02CAC660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21677D15-4265-47B7-B5FE-051B02CAC660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21677D15-4265-47B7-B5FE-051B02CAC660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65E51C95-6B6B-4E23-A50C-B4E7DB0A9803} = {EC196887-19DD-48CB-95EA-9D7FE9C70BF7}
+		{764D5BE2-91A3-44BE-90AF-68F4F395DA1E} = {EC196887-19DD-48CB-95EA-9D7FE9C70BF7}
+		{82B1471D-5144-4EDF-971D-616F8614DE8D} = {38D8408C-ABF0-40BA-AA24-96998502AC38}
+		{82858568-C51C-4406-941D-1695EFD34B24} = {65E51C95-6B6B-4E23-A50C-B4E7DB0A9803}
+		{318378FF-D505-472A-8F21-8E76A46DB439} = {65E51C95-6B6B-4E23-A50C-B4E7DB0A9803}
+		{D0BF37C0-F8B5-46A5-845F-2AD60CE114F4} = {65E51C95-6B6B-4E23-A50C-B4E7DB0A9803}
+		{983E6010-C5A1-4811-A531-7B4C70466046} = {65E51C95-6B6B-4E23-A50C-B4E7DB0A9803}
+		{3B4D9DBE-1699-46AC-B5CF-DCE1666F1FB8} = {764D5BE2-91A3-44BE-90AF-68F4F395DA1E}
+		{CFE573BC-BE9C-4DC9-B4CC-C852CE7F924B} = {764D5BE2-91A3-44BE-90AF-68F4F395DA1E}
+		{21677D15-4265-47B7-B5FE-051B02CAC660} = {764D5BE2-91A3-44BE-90AF-68F4F395DA1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD544A3-88CB-4137-B515-9AA0254053FB}
+	EndGlobalSection
+EndGlobal

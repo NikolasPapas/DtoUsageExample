@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "7c37ed88-b1f3-4435-81aa-3b6e9fb9cbb5",
+		"name": "TestDTOsApplication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TesDtoContoller",
+			"item": [
+				{
+					"name": "getData",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{CoreUrl}}tesDto/getData",
+							"host": [
+								"{{CoreUrl}}tesDto"
+							],
+							"path": [
+								"getData"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
